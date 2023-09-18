@@ -9,7 +9,7 @@ body {
     background-color: #151515;
 }
 
-/* Header */
+                                                /* Header */
 
 header {
     height: 824px;
@@ -22,7 +22,6 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: 32px;
-    /* 100% */
     letter-spacing: -0.444px;
     width: 172px;
     height: 25px;
@@ -49,14 +48,11 @@ header .headline {
 header .headline h1 {
     color: var(--White, #FFF);
     font-feature-settings: 'clig' off, 'liga' off;
-
-    /* Heading (XL) */
     font-family: "Space Grotesk";
     font-size: 88px;
     font-style: normal;
     font-weight: 700;
     line-height: 88px;
-    /* 100% */
     letter-spacing: -2.5px;
     position: absolute;
     left: 115px;
@@ -81,13 +77,11 @@ header .headline h1 {
     top: 417px;
     color: var(--Grey, #D9D9D9);
     font-feature-settings: 'clig' off, 'liga' off;
-    /* Body */
     font-family: Space Grotesk;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 28px;
-    /* 155.556% */
 }
 
 .contact-me-1 a {
@@ -102,7 +96,6 @@ header .headline h1 {
     font-style: normal;
     font-weight: 700;
     line-height: 26px;
-    /* 162.5% */
     letter-spacing: 2.286px;
     text-decoration: none;
 }
@@ -150,7 +143,7 @@ header .headline h1 {
     left: -140px;
 }
 
-/* Main Section */
+                                                       /* Main Section */
 
 main {
     height: 850px;
@@ -180,7 +173,6 @@ main {
     height: 56px;
     color: var(--White, #FFF);
     font-feature-settings: 'clig' off, 'liga' off;
-    /* Heading (L) */
     font-family: "Space Grotesk";
     font-size: 48px;
     font-style: normal;
@@ -192,7 +184,6 @@ main {
 .skills p {
     color: var(--Grey, #D9D9D9);
     font-feature-settings: 'clig' off, 'liga' off;
-    /* Body */
     font-family: Space Grotesk;
     font-size: 18px;
     font-style: normal;
@@ -240,8 +231,7 @@ main {
 .section-2 h2 {
     color: var(--White, #FFF);
     font-feature-settings: 'clig' off, 'liga' off;
-    /* Heading (XL) */
-    font-family: Space Grotesk;
+    font-family: "Space Grotesk";
     font-size: 88px;
     font-style: normal;
     font-weight: 700;
@@ -251,7 +241,7 @@ main {
 
 .contact-me-2 a {
     color: var(--White, #FFF);
-    font-family: Space Grotesk;
+    font-family: "Space Grotesk";
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -294,7 +284,6 @@ main {
 .projects figure figcaption {
     color: var(--White, #FFF);
     font-feature-settings: 'clig' off, 'liga' off;
-    /* Heading (M) */
     font-family: "Space Grotesk";
     font-size: 24px;
     font-style: normal;
@@ -305,7 +294,6 @@ main {
 .projects figure .text-1 {
     color: var(--Grey, #D9D9D9);
     font-feature-settings: 'clig' off, 'liga' off;
-    /* Body */
     font-family: "Space Grotesk";
     font-size: 18px;
     font-style: normal;
@@ -323,7 +311,6 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: 26px;
-    /* 162.5% */
     letter-spacing: 2.286px;
 }
 
@@ -336,7 +323,6 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: 26px;
-    /* 162.5% */
     letter-spacing: 2.286px;
 }
 
@@ -346,7 +332,7 @@ main {
     left: 0;
     width: 541px;
     height: 375px;
-    background: rgba(0, 0, 0, 0.75); /* Change the color and opacity of the mask as needed */
+    background: rgba(0, 0, 0, 0.75);
     opacity: 0;
     transition: opacity 0.3s;
     display: flex;
@@ -361,7 +347,7 @@ main {
     left: 564px;
     width: 541px;
     height: 375px;
-    background: rgba(0, 0, 0, 0.75); /* Change the color and opacity of the mask as needed */
+    background: rgba(0, 0, 0, 0.75);
     opacity: 0;
     transition: opacity 0.3s;
     display: flex;
@@ -376,7 +362,7 @@ main {
     left: 0px;
     width: 541px;
     height: 375px;
-    background: rgba(0, 0, 0, 0.75); /* Change the color and opacity of the mask as needed */
+    background: rgba(0, 0, 0, 0.75);
     opacity: 0;
     transition: opacity 0.3s;
     display: flex;
@@ -391,7 +377,7 @@ main {
     left: 563px;
     width: 541px;
     height: 375px;
-    background: rgba(0, 0, 0, 0.75); /* Change the color and opacity of the mask as needed */
+    background: rgba(0, 0, 0, 0.75);
     opacity: 0;
     transition: opacity 0.3s;
     display: flex;
@@ -406,7 +392,7 @@ main {
     left: 0px;
     width: 541px;
     height: 375px;
-    background: rgba(0, 0, 0, 0.75); /* Change the color and opacity of the mask as needed */
+    background: rgba(0, 0, 0, 0.75);
     opacity: 0;
     transition: opacity 0.3s;
     display: flex;
@@ -421,7 +407,7 @@ main {
     left: 563px;
     width: 541px;
     height: 375px;
-    background: rgba(0, 0, 0, 0.75); /* Change the color and opacity of the mask as needed */
+    background: rgba(0, 0, 0, 0.75);
     opacity: 0;
     transition: opacity 0.3s;
     display: flex;
@@ -473,8 +459,6 @@ footer .form-content #contact {
 footer .form-content #contact h2 {
     color: var(--White, #FFF);
     font-feature-settings: 'clig' off, 'liga' off;
-
-    /* Heading (XL) */
     font-family: "Space Grotesk";
     font-size: 88px;
     font-style: normal;
@@ -487,8 +471,6 @@ footer .form-content #contact p {
     width: 445px;
     color: var(--Grey, #D9D9D9);
     font-feature-settings: 'clig' off, 'liga' off;
-
-    /* Body */
     font-family: Space Grotesk;
     font-size: 18px;
     font-style: normal;
@@ -597,7 +579,6 @@ textarea:-webkit-autofill {
     font-style: normal;
     font-weight: 700;
     line-height: 32px;
-    /* 100% */
     letter-spacing: -0.444px;
 }
 
@@ -630,7 +611,7 @@ textarea:-webkit-autofill {
 }
 
 .project-2:hover .img-2{
-    transform: scale(1); /* Scale up the image on hover (adjust as needed) */
+    transform: scale(1);
 }
 
 .project-3:hover .hover-content-3{
@@ -672,3 +653,5 @@ textarea:-webkit-autofill {
 figure .text-2:hover , figure .text-3:hover{
     color: #4EE1A0;
 }
+
+                                               /* Media Queries */
