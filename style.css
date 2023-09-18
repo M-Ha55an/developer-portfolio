@@ -1,0 +1,674 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 3872px;
+    background-color: #151515;
+}
+
+/* Header */
+
+header {
+    height: 824px;
+}
+
+.title {
+    color: white;
+    font-family: "Space Grotesk";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 100% */
+    letter-spacing: -0.444px;
+    width: 172px;
+    height: 25px;
+    position: absolute;
+    top: 39px;
+    left: 115px;
+}
+
+header .icons {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 43px;
+    left: 990px;
+}
+
+header .headline {
+    width: 706px;
+    height: 303px;
+    flex-shrink: 0;
+    background-color: 2px solid whitesmoke;
+}
+
+header .headline h1 {
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Heading (XL) */
+    font-family: "Space Grotesk";
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+    /* 100% */
+    letter-spacing: -2.5px;
+    position: absolute;
+    left: 115px;
+    top: 198px;
+}
+
+.rectangle-1 {
+    position: absolute;
+    top: 374px;
+    left: 252px;
+    background: var(--Green, #4EE1A0);
+    width: 492px;
+    height: 6px;
+    flex-shrink: 0;
+}
+
+.headline .paragraph {
+    width: 445px;
+    height: 84px;
+    position: absolute;
+    left: 115px;
+    top: 417px;
+    color: var(--Grey, #D9D9D9);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body */
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.contact-me-1 a {
+    width: 117px;
+    height: 26px;
+    position: absolute;
+    top: 567px;
+    left: 115px;
+    color: var(--White, #FFF);
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 162.5% */
+    letter-spacing: 2.286px;
+    text-decoration: none;
+}
+
+.rectangle-2 {
+    height: 2px;
+    width: 110px;
+    background: var(--Green, #4EE1A0);
+    position: absolute;
+    left: 115px;
+    top: 603px;
+}
+
+.img-section {
+    width: 420px;
+    height: 720px;
+    flex-shrink: 0;
+    background: #242424;
+    position: absolute;
+    top: 0;
+    left: 780px;
+    z-index: -1;
+}
+
+.img-section img {
+    width: 420px;
+    height: 690px;
+    flex-shrink: 0;
+}
+
+.circle {
+    width: 129px;
+    height: 129px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: var(--White, #FFF);
+    position: absolute;
+    top: 490px;
+    left: 714px;
+}
+
+.rings-1 {
+    position: absolute;
+    top: 133px;
+    left: -140px;
+}
+
+/* Main Section */
+
+main {
+    height: 850px;
+}
+
+.rectangle-3 {
+    width: 1110px;
+    height: 1px;
+    flex-shrink: 0;
+    background: var(--White, #FFF);
+    position: absolute;
+    left: 75px;
+}
+
+.skills {
+    height: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    position: absolute;
+    left: 120px;
+    top: 897px;
+    overflow: hidden;
+}
+
+.skills h3 {
+    height: 56px;
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Heading (L) */
+    font-family: "Space Grotesk";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1.5px;
+}
+
+.skills p {
+    color: var(--Grey, #D9D9D9);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body */
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    width: 345px;
+}
+
+.skill-1,
+.skill-2,
+.skill-3,
+.skill-4,
+.skill-5,
+.skill-6 {
+    display: flex;
+    width: 345px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.rings-2 {
+    position: absolute;
+    left: 960px;
+    top: 160px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.section-2 {
+    width: 1110px;
+    height: 1767px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 1291px;
+    left: 75px;
+}
+
+.section-2 .heading-2 {
+    width: 334px;
+    height: 88px;
+}
+
+.section-2 h2 {
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Heading (XL) */
+    font-family: Space Grotesk;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+}
+
+.contact-me-2 a {
+    color: var(--White, #FFF);
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2.286px;
+    text-decoration: none;
+    width: 117px;
+    height: 26px;
+    position: absolute;
+    top: 25px;
+    left: 990px;
+
+}
+
+.rectangle-4 {
+    width: 112px;
+    height: 2px;
+    background: var(--Green, #4EE1A0);
+    position: absolute;
+    left: 990px;
+    top: 61px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 120px;
+    grid-column-gap: 24.19px;
+    position: absolute;
+    top: 168px;
+    left: 3px;
+}
+
+.projects figure img {
+    width: 540px;
+    height: 375px;
+    flex-shrink: 0;
+}
+
+.projects figure figcaption {
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Heading (M) */
+    font-family: "Space Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.projects figure .text-1 {
+    color: var(--Grey, #D9D9D9);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body */
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    word-spacing: 18px;
+}
+
+.projects figure .text-2 {
+    position: absolute;
+    top: 138px;
+    color: var(--White, #FFF);
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 162.5% */
+    letter-spacing: 2.286px;
+}
+
+.projects figure .text-3 {
+    position: absolute;
+    top: 224px;
+    color: var(--White, #FFF);
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 162.5% */
+    letter-spacing: 2.286px;
+}
+
+.hover-content-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 541px;
+    height: 375px;
+    background: rgba(0, 0, 0, 0.75); /* Change the color and opacity of the mask as needed */
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-content-2{
+    position: absolute;
+    top: 0;
+    left: 564px;
+    width: 541px;
+    height: 375px;
+    background: rgba(0, 0, 0, 0.75); /* Change the color and opacity of the mask as needed */
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-content-3{
+    position: absolute;
+    top: 559px;
+    left: 0px;
+    width: 541px;
+    height: 375px;
+    background: rgba(0, 0, 0, 0.75); /* Change the color and opacity of the mask as needed */
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-content-4{
+    position: absolute;
+    top: 559px;
+    left: 563px;
+    width: 541px;
+    height: 375px;
+    background: rgba(0, 0, 0, 0.75); /* Change the color and opacity of the mask as needed */
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-content-5{
+    position: absolute;
+    top: 1118px;
+    left: 0px;
+    width: 541px;
+    height: 375px;
+    background: rgba(0, 0, 0, 0.75); /* Change the color and opacity of the mask as needed */
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-content-6{
+    position: absolute;
+    top: 1118px;
+    left: 563px;
+    width: 541px;
+    height: 375px;
+    background: rgba(0, 0, 0, 0.75); /* Change the color and opacity of the mask as needed */
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+figure .rectangle-7 {
+    width: 122px;
+    height: 2px;
+    background: var(--Green, #4EE1A0);
+}
+
+figure .rectangle-8 {
+    position: absolute;
+    top: 270px;
+    width: 98px;
+    height: 2px;
+    background: var(--Green, #4EE1A0);
+}
+
+                                                  /* Footer */
+
+footer {
+    width: 99.69%;
+    height: 675px;
+    position: absolute;
+    top: 3197px;
+    background: var(--Dark-Grey, #242424);
+}
+
+footer .form-content #contact {
+    display: flex;
+    width: 445px;
+    height: 208px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 36px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 115px;
+    top: 84px;
+}
+
+footer .form-content #contact h2 {
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Heading (XL) */
+    font-family: "Space Grotesk";
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+}
+
+footer .form-content #contact p {
+    width: 445px;
+    color: var(--Grey, #D9D9D9);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body */
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.rings-3 {
+    position: absolute;
+    top: 340px;
+    left: -245px;
+}
+
+form {
+
+    position: absolute;
+    top: 84px;
+    left: 830px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: var(--White, #FFF);
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.222px;
+    opacity: 0.5;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: var(--Dark-Grey, #242424);
+    transition: border-color 0.3s;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+input[type="text"]:-webkit-autofill,
+input[type="email"]:-webkit-autofill,
+textarea:-webkit-autofill {
+    background-color: var(--Dark-Grey, #242424);
+    box-shadow: 0 0 0 30px var(--Dark-Grey, #242424) inset;
+    -webkit-text-fill-color: #fff;
+}
+
+.submit-button a {
+    color: var(--White, #FFF);
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2.286px;
+    text-decoration: none;
+    position: absolute;
+    left: 142px;
+    top: 370px;
+    width: 142px;
+}
+
+.rectangle-5 {
+    width: 144px;
+    height: 2px;
+    background: #4EE1A0;
+    position: absolute;
+    left: 140px;
+    top: 405px;
+}
+
+.submit-button a:hover {
+    color: #4EE1A0;
+}
+
+.rectangle-6 {
+    width: 1110px;
+    height: 1px;
+    flex-shrink: 0;
+    background: var(--White, #FFF);
+    position: absolute;
+    top: 550px;
+    left: 80px;
+}
+
+.end h2 {
+    position: absolute;
+    top: 580px;
+    left: 80px;
+    color: var(--White, #FFF);
+    font-family: Space Grotesk;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 100% */
+    letter-spacing: -0.444px;
+}
+
+.end .icons {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 580px;
+    left: 990px;
+}
+ 
+                                            /* On Hover Events */
+
+.icons:hover {
+    cursor: pointer;
+}
+
+.project-1:hover .hover-content-1{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.project-1:hover .img-1{
+    transform: scale(1);
+}
+
+.project-2:hover .hover-content-2 {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.project-2:hover .img-2{
+    transform: scale(1); /* Scale up the image on hover (adjust as needed) */
+}
+
+.project-3:hover .hover-content-3{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.project-3:hover .img-3{
+    transform: scale(1);
+}
+
+.project-4:hover .hover-content-4{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.project-4:hover .img-4{
+    transform: scale(1);
+}
+
+.project-5:hover .hover-content-5{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.project-5:hover .img-5{
+    transform: scale(1);
+}
+
+.project-6:hover .hover-content-6{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.project-6:hover .img-6{
+    transform: scale(1);
+}
+
+figure .text-2:hover , figure .text-3:hover{
+    color: #4EE1A0;
+}
